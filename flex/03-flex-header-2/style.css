@@ -19,7 +19,7 @@ body {
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
-  height: 48px;
+  height:  48px;
 }
 
 .logo {
@@ -45,4 +45,32 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-side {
+  display: flex;
+  align-items: flex-start;
+}
+
+.links {
+  display: flex;
+  padding: 0 .7em;
+  gap: .8em;
+}
+
+.right-side {
+  display: flex;
+  justify-content: center;
+  padding: 0 .6em;
+  align-items: center;
+}
+
+.notifications {
+  margin: 0 .5em;
 }
